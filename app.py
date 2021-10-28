@@ -26,7 +26,7 @@ def generate_output(text):
      st.markdown(q_text)
 
      wc = WordCloud(width = 1000, height = 600,
-                    random_state = 1, background_color = 'white',
+                    random_state = 1, background_color = '#00172B',
                     stopwords = STOP_WORDS).generate(text)
 
      fig, ax = plt.subplots()
